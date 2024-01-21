@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class TodoService {
 
-  apiUrl: string = 'http://localhost:8080/api/todos';
+  apiUrl: string = 'http://10.0.0.110:8080/api/todos';
 
   constructor( private http: HttpClient) { }
   salvar(todo:Todo):Observable<Todo>{
